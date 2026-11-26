@@ -1,1 +1,25 @@
+Tarea 5.
+Dado el archivo fasta, hacer un programa con las siguientes funcioens
+Archivo fasta Toxo Gondii Me49: 
+Primer interno: "TGAATGTACGAAGACGTCCTGAATAATCACC"
+Primer externo: "TTATACTCTAAATTCGGGTCCACTTTTATTT"
+
+1. Para todos los encabezados, lo imprima en el formato (1 punto)
+"Organismo <el nombre del fasta>, contig <el contenido del encabezado, sin el ">""
+
+
+2. Para cada línea de secuencia genómica, imprima su contenido de GC en el formato "GC línea <número de línea>: <GC" (2 puntoa)
+
+
+3. Para la primera secuencia de cada segmento, imprima su secuencia complementaria (2 puntos)
+
+
+4. Imprima el número de línea donde encuentre el codón "ATG" en el formato "ATG en línea <número de línea>" (2 puntos)
+
+
+5. Calcule el contenido GC total del archivo y lo imprima al final en formato "GC total del archivo: <GC>" (1punto)
+
+
+6. Para el formato que te toca, explicar el nombre, extensión del archivo, para qué se usa, en qué consiste (qué reglas debe seguir el archivo para cumplir el formato) y un ejemplo. 
+(2 a 8 puntos según la dificultad) Gff3
 
