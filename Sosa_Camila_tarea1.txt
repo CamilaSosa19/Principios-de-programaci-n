@@ -1,6 +1,10 @@
 1. Cómo podemos concatenar un número a un string? (.5 punto)
-numero=”hay un numero” resultado=numero+str(16) print(resultado) 
-salida: aqui hay un numero 16
+Codigo:
+numero= "Hay un numero "
+resultado=numero+str(16) 
+print(resultado) 
+respuesta:
+Hay un numero 16
 
 2. De que tipo son las variables justifica la respuesta (1.5 puntos)
 a = "1" int 
