@@ -1,6 +1,5 @@
 Escribir funciones que reciban los parámetros indicados (input) y regrese el valor indicado (output).
-Probar la función con los ejemplos mostrados y la función assert
-(1.5 puntos)
+Probar la función con los ejemplos mostrados y la función assert (1.5 puntos)
 1. isdigit
 Input: un string
 Output: Booleano indicando si el string se compone de puros números
@@ -12,8 +11,8 @@ swapcase
 capitalize
 es par
 
-(1.5 puntos)
-2. count
+
+2. count (1.5 puntos)
 Input: dos strings, el segundo es sólo un caracter
 Output: un entero con el número de veces que aparece el segundo string en el primer string
 assert( count("hola mundo","o") == 2 )
@@ -24,8 +23,8 @@ assert( count("hola mundo","!") == 0 )
 assert( count("hola mundo","") == 0 )
 assert( count("","A") == 0 )
 
-(1.5 puntos)
-3. replace
+
+3. replace (1.5 puntos)
 Input: tres strings, el segundo y tercero sólo son un caracter
 Output: un string, que sea igual al primero pero reemplazando las ocurrencias del segundo por el tercero
 assert( replace("hola","h","H") == "Hola" )
@@ -34,8 +33,8 @@ assert( replace("hola","","H") == "hola" )
 assert( replace("hola","h","") == "ola" )
 assert( replace("holah","h","") == "ola" )
 
-(1.5 puntos)
-4. modulo
+
+4. modulo (1.5 puntos)
 Input: tres números a, b
 Output: el resultado de "a módulo b"
 assert( modulo(2,2) == 0 )
@@ -44,8 +43,8 @@ assert( modulo(2,1) == 0 )
 assert( modulo(-2,2) == 0 )
 assert( modulo(7,3) == 1 )
 
-(1.5 puntos)
-5. complemento
+
+5. complemento (1.5 puntos)
 Input: una string de una secuencia genómica
 Output: un string con la secuencia complementaria
 assert( complemento("A") == "T" )
@@ -56,8 +55,8 @@ assert( complemento("AAAA") == "TTTT" )
 assert( complemento("ATGC") == "TACG" )
 assert( complemento("") == "" )
 
-(2.5 puntos)
-6. GCcontent
+
+6. GCcontent (2.5 puntos)
 Input: un string con una secuencia de ADN
 Output: porcentaje de caracteres que son "G" ó "C"
 assert( GCcontent("ATGC") == .5 )
